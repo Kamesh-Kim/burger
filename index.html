@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgerking</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="icon" type="image/png" href="facicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <!-- Header -->
+   <div class=" w-full min-h-screen">
+    <div class="flex justify-between items-center pt-10 pb-5 border-b-2 lg:mx-28 md:mx-16 mx-4">
+        <div class="gap-8 xl:flex lg:flex md:hidden hidden">
+          <ul>Home</ul>
+          <ul>Shop</ul>
+          <ul>Blog</ul>
+          <ul>Pages</ul>
+          <ul>contact</ul>
+        </div>
+
+        <div>
+            <img src="Logo.svg" alt="" class="w-40 lg:mr-48 ">
+        </div>
+
+        <div class="lg:flex md:flex lg:gap-4 gap-2 hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+              </svg>
+
+        </div>
+        <div class="lg:hidden p-2 bg-[#FD9900] rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+       </div>
+    </div>
+
+    <!-- Banner section-->
+     <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse flex-col-reverse xl:gap-28 lg:gap-10  md:gap-8 items-center py-14 lg:mx-28 md:mx-16 mx-4">
+        <div class="w-full mt-4">
+          <h1 class="text-[#383838] xl:text-7xl lg:text-5xl text-4xl font-black mb-6">Epicurean Restaurant & Enjoy Our Food</h1>
+          <p class="text-[#383838ba]">You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum Lorem Ipsum has been the industry's standard dummy text ever since the starting</p>
+          <button class="px-6 py-4 bg-[#FD9900] text-white font-semibold lg:text-lg text-[14px] rounded-md mt-6 hover:bg-[#fd8300]">Explore our menu</button>
+        </div>
+
+        <img src="hero-1.png" alt="" class=" lg:w-[500px] xl:w-[600px]">
+     </div>
+
+  </div>
+
+
+  <!-- Second Section -->
+  
+    <div class="w-full lg:min-h-[300px] md:min-h-[600px]">
+      <div class="absolute w-full">
+        <div class="bg-[#383838] w-full xl:h-[300px] lg:h-[600px] md:h-[600px] sm:h-[350px] h-[650px] absolute"></div>
+        <!-- <div><img src="cta-sp-bg.svg" alt="" class="relative top-0 w-full lg:h-[600px] md:h-[600px] object-contain"></div> -->
+      </div>
+
+      <div class="flex flex-wrap lg:gap-28 md:gap-16 gap-8 justify-center mx-28 relative lg:top-28 md:top-40 top-8 text-white ">
+      <div class="text-center">
+        <div class="flex justify-center items-center gap-1">
+          <h1 class="text-6xl font-black">15</h1>
+          <img src="Plus.svg" alt="">
+        </div>
+        <p class="text-2xl font-semibold">Years Experience</p>
+      </div>
+    
+          
+     
+      <div class="text-center">
+         <div class="flex justify-center items-center gap-1">
+           <h1 class="text-6xl font-black">05</h1>
+           <img src="Plus.svg" alt="">
+         </div>
+        <p class="text-2xl font-semibold">Master Chefs</p>
+       </div>
+    
+
+    
+      <div class="text-center">
+         <div class="flex justify-center items-center gap-1">
+           <h1 class="text-6xl font-black">200</h1>
+           <img src="Plus.svg" alt="">
+         </div>
+         <p class="text-2xl font-semibold">Daily Visitors</p>
+       </div>
+    
+
+      <div class="text-center">
+        <div class="flex justify-center items-center gap-1">
+          <h1 class="text-6xl font-black">36</h1>
+          <img src="Plus.svg" alt="">
+        </div>
+        <p class="text-2xl font-semibold">Achievements</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third section -->
+  <div class=" w-full min-h-screen">
+     <div class="flex flex-col md:flex-row lg:mx-28 mx-4 xl:gap-20 lg:gap-10 md:gap-10 items-center lg:pt-28 pt-40 pb-20"> 
+        <img src="Restrant.jpg" alt="" class="lg:w-[550px] lg:h-[550px] md:w-[400px] md:h-[400px] w-[400px] h-[400px] rounded-lg object-cover">
+        <div class=" xl:w-[600px] lg:w-[500px] md:w-[300px] pt-6">
+          <h5 class="text-[#FD9900]">About Us</h5>
+          <h1 class="text-[#383838] xl:text-6xl lg:text-5xl md:text-4xl text-4xl font-black">Our Journey to Sweet Success. A Tale of Flour and Sugar</h1>
+          <p class="text-[#383838ba] mt-4 xl:w-[600px] lg:w-[400px] md:w-[300px]">Here are many variations of passages of Lorem Ipsum available but majority have suffered alteration in some form from injected humour, or randomized words which don't looking even slightly believable. If you are going have suffered alteration.</p>
+          <button class="px-8 py-4 bg-[#FD9900] text-white font-semibold lg:text-lg text-[14px] rounded-md mt-6 hover:bg-[#fd8300]">Learn More</button>
+        </div> 
+      </div>
+  </div>
+
+  <!-- fourth Section -->
+   <div class="w-full min-h-screen bg-[#F8F8F8]">
+    <div class="lg:flex  gap-8 lg:mx-28 lg:pt-32 pt-20 md:gap-2 md:mx-16 mx-4">
+    <div class="lg:w-[400px] md-[300px]">
+      <h5 class="text-[#FD9900] w-[100px]">Our Trending</h5>
+      <h1 class="text-[#383838] text-5xl font-black lg:w-[400px] md-[300px]">Fresh & Better Foods For You</h1>
+      <p class="text-[#383838ba] mt-2 md-[300px] mb-4">There are many variations of passages of Lorem Ipsum form any injected humour, or randomized words which don't look slightly believable.</p>
+
+      <div class="lg:flex gap-2 mt-5 hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FFBF5E" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FFBF5E" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+      </div>
+    </div>
+
+   <div class="flex flex-wrap md:flex gap-2 md:mt-4">
+      <div class="w-[280px] lg:w-[280px] h-[480px] relative ">
+        <img src="trending-1.png" alt="" class="w-[480px] md:[680px] rounded-lg absolute ">
+        <img src="Greadint.png" alt="" class="w-[280px] absolute top-[190px] rounded-b-lg">
+        <div class="w-full relative top-[380px] text-center">
+          <h4 class="text-[#FD9900] text-lg font-semibold">SEAFOOD</h4>
+          <h2 class="text-2xl font-semibold text-white">Salmon Steak</h2>
+        </div>
+    </div>
+
+  
+      <div class="w-[280px] lg:w-[280px] h-[480px] relative ">
+        <img src="trending-2.png" alt="" class="w-[480px] md:w-[680px] rounded-lg absolute ">
+        <img src="Greadint.png" alt="" class="w-[280px] absolute top-[190px] rounded-b-lg">
+        <div class="w-full relative top-[380px] text-center">
+          <h4 class="text-[#FD9900] text-lg font-semibold">VEGTABLE</h4>
+          <h2 class="text-2xl font-semibold text-white">Tomato Salad</h2>
+        </div>
+    </div>
+
+      <div class="w-[280px] lg:w-[280px] h-[480px] relative hidden lg:block ">
+        <img src="trending-3.png" alt="" class="w-[480px] md:w-[680px] rounded-lg absolute ">
+        <img src="Greadint.png" alt="" class="w-[280px] absolute top-[190px] rounded-b-lg">
+        <div class="w-full relative top-[380px] text-center">
+          <h4 class="text-[#FD9900] text-lg font-semibold">DRINKS</h4>
+          <h2 class="text-2xl font-semibold text-white">Mint Mojito</h2>
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+   </div>
+
+   <!-- fifth section -->
+    <div class="w-full min-h-screen">
+      <div class=" text-center pt-16">
+        <h4 class="text-[#FD9900]">Our Experts</h4>
+        <h1 class="text-5xl font-black text-[#383838]">Meet Our Chefs</h1>
+      </div>
+
+      <div class="fifth-section flex lg:flex-row md:flex-col flex-col items-center  lg:gap-28 gap-8 justify-center mt-12 md:items-center md:gap-8 ">
+        <div class="w-[300px] h-[440px]">
+          <img src="Chef-1.png" alt="" class="w-[300px] rounded-xl absolute ">
+          <div class=" relative top-[35px] start-6 w-[180px]">
+            <h1 class="text-2xl font-bold">Vincent Sinclair</h1>
+            <h4 class="text-[#FD9900] font-bold">Chief Master chef</h4>
+          </div>
+        </div>
+
+        <div class="w-[300px] h-[440px]">
+          <img src="Chef-2.png" alt="" class="w-[300px] rounded-xl absolute">
+          <div class=" relative top-[35px] start-6 w-[200px]">
+            <h1 class="text-2xl font-bold">Camila Fernandez</h1>
+            <h4 class="text-[#FD9900] font-bold">Excutive chef</h4>
+          </div>
+        </div>
+
+        <div class="w-[300px] h-[440px]">
+          <img src="Chef-3.png" alt="" class="w-[300px] rounded-xl absolute">
+          <div class=" relative top-[35px] start-6 w-[180px]">
+            <h1 class="text-2xl font-bold">Harrison Grant</h1>
+            <h4 class="text-[#FD9900] font-bold">Executive Head Chef</h4>
+          </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- sixth section -->
+     <div class="w-full min-h-screen bg-[#f8f8f8]">
+      <div class=" text-center pt-24">
+        <h4 class="text-[#FD9900]">Most Delicious</h4>
+        <h1 class="text-5xl font-black text-[#383838]">Our Signature Foods</h1>
+      </div>
+      <div class="flex flex-col lg:flex-row items-center justify-center text-center pt-12 pb-16 gap-8 lg:gap-6 px-4 lg:px-0 ">
+        
+        <div class="w-full lg:w-[505px] h-[352px] relative overflow-hidden rounded-lg">
+          <img src="discount-1.jpg" alt="" class="w-full h-full absolute object-cover ">
+          <div class="bg-[#00000053] absolute inset-0"></div>
+          <div class="relative top-1/2 transform -translate-y-1/2 text-center">
+          <h4 class="text-[#FD9900] font-semibold">Main Course</h4>
+          <h1 class="text-2xl font-bold text-white">Hot Spicy Ramen</h1>
+          <p class="text-lg text-white">Chicken,Shrimp,Tofu,Olive Oil,Butter</p>
+        </div>
+        </div>
+        
+     
+
+      <div class="relative w-full lg:w-[505px] h-[352px] rounded-lg overflow-hidden">
+        <img src="discount-2.jpg" alt="" class="w-full h-full absolute object-cover">
+        <div class="bg-[#00000053] absolute inset-0"></div>
+        <div class="relative top-1/2 transform -translate-y-1/2 text-center">
+        <h4 class="text-[#FD9900] font-semibold">Salad</h4>
+        <h1 class="text-2xl font-bold text-white">Vegetable Egg Salad</h1>
+        <p class="text-lg text-white">Lemon, Parsley, Chopped, Olive Oil, Butter</p>
+      </div>
+      </div>
+   
+
+    <div class=" relative w-full lg:w-[505px] h-[352px] overflow-hidden rounded-lg">
+      <img src="discount-3.jpg" alt="" class="w-full h-full absolute object-cover">
+      <div class="bg-[#00000053] absolute inset-0"></div>
+      <div class="relative top-1/2 text-center transform -translate-y-1/2 ">
+      <h4 class="text-[#FD9900] font-semibold">Dessert</h4>
+      <h1 class="text-2xl font-bold text-white">Cheesecake</h1>
+      <p class="text-lg text-white">Eggs, Vanilla, Sugar, Cream </p>
+    </div>
+    </div>
+ 
+    </div>
+ </div>
+
+
+ <!-- Form section -->
+  <div class="w-full lg:min-h-screen md:min-h-screen">
+    <div class="absolute w-full">
+      <img src="Form Image.jpg" alt="" class="w-full xl:h-screen lg:h-screen md:h-[900px] h-[1000px] object-cover object-bottom absolute">
+      <div class="bg-[#00000083] w-full xl:h-screen lg:h-screen md:h-[900px] h-[1000px] relative top-0"></div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row relative top-0 xl:gap-40 lg:gap-24 pt-16 lg:mx-28 md:mx-16 mx-4 lg:items-center md:items-start ">
+    <div class="lg:w-[600px] md:w-[480px]">
+      <h4 class="text-[#FD9900] font-semibold">Testimonials</h4>
+      <h1 class="xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-black text-white">Hello, Reserve Your Own Private Table</h1>
+      <p class="mt-2 text-white">There are many variations of passages of Lorem Ipsum form, by injected humour, or randomized words which don't look even slightly believable. If you are going to use a passage.</p>
+    </div>
+    <div class="flex flex-col xl:gap-6 lg:gap-3 md:gap-3 gap-2 lg:px-8 px-4 py-16  bg-[#ffffff] rounded-lg md:mt-4 mt-4">
+      <input type="text" placeholder="Your Name" class="text-sm w-full  px-6 py-3 border-2 bg-white rounded-lg focus:border-spacing-1 focus:border-neutral-300 focus:outline-none text-neutral-500">
+      <input type="text" placeholder="Phone" class="text-sm w-full px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+      <div class="flex gap-2">
+        <input type="text" placeholder="Email Adress" class="text-sm w-full px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+        <input type="text" placeholder="Date" class="text-sm w-full px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+      </div>
+      <div class="flex gap-2">
+        <input type="text" placeholder="Persons" class="text-sm w-full px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+        <input type="text" placeholder="Time" class=" w-full px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+      </div>
+      <input type="text" placeholder="Message" class="text-sm w-full  px-6 pb-16 pt-4 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500">
+      <div><button class="px-6 py-3 bg-[#FD9900] text-white font-semibold text-sm rounded-md mt-2 hover:bg-[#fd8300]">Confirm Reservation</button>
+     </div>
+     
+     </div>
+
+  </div>
+     
+  </div>
+
+  <!-- Eigth section -->
+   <div class="w-full h-[500px]">
+    <div class="pt-[200px]">
+    
+      <img src="footer-bg.png" alt="" class="absolute w-full lg:h-[500px] md:h-[1000px] h-[1000px] md:object-cover object-cover">
+    
+    
+    <div class="xl:mx-28 lg:mx-24 md:mx-16 relative top-16 mx-4">
+    <div class="lg:flex flex-col md:flex-row xl:justify-between md:gap-6 lg:pb-16 pb-8">
+     <div class="flex flex-col w-[150px] mb-6">
+      <h1 class="text-xl font-bold mb-3 text-white">Product</h1>
+      <ul class="mb-1 text-white">Breakfast</ul>
+      <ul class="mb-1 text-white">Lunch</ul>
+      <ul class="mb-1 text-white">Desserts</ul>
+      <ul class="mb-1 text-white">Dinner</ul>
+      <ul class="mb-1 text-white">Book a table</ul>
+      <ul class="mb-1 text-white">Our chef</ul>
+     </div>
+
+     <div class="flex flex-col w-[150px] text-white mb-6">
+      <h1 class="text-xl font-bold mb-3">Information</h1>
+      <ul class="mb-1">FAQ</ul>
+      <ul class="mb-1">Blog</ul>
+      <ul class="mb-1">Support</ul>
+     </div>
+
+     <div class="flex flex-col w-[150px] text-white mb-6">
+      <h1 class="text-xl font-bold mb-3">Company</h1>
+      <ul class="mb-1">About us</ul>
+      <ul class="mb-1">Our menu</ul>
+      <ul class="mb-1">Contact us</ul>
+      <ul class="mb-1">Epicurean</ul>
+     </div>
+
+     <div class=" lg:w-[500px] h-[220px] w-full">
+      <img src="footer-subscribe-bg.png" alt="" class="absolute xl:w-[520px] lg:w-[450px] md:w-[400px]"> 
+      <div class="relative top-6 start-8 lg:w-[400px] w-[300px]">
+        <h4 class="font-semibold xl:text-xl lg:text-lg md:text-lg text-white lg:mb-4 ">Subscribe</h4>
+        <h1 class="font-bold xl:text-4xl lg:text-3xl md:text-2xl text-white lg:mb-4 mb-2">Our New letter</h1>
+        <h4 class="font-semibold text-xl text-white">To get regular update</h4>
+        </div>
+
+        <div class="w-full xl:mt-20 lg:mt-14 md:mt-10 mt-12 flex lg:gap-5 gap-2">
+          <div><input type="text" placeholder="Enter your mail" class=" xl:w-[390px] lg:w-[320px] md:w-[270px] w-[210px] px-6 py-3 border-2 bg-white rounded-lg focus:border-neutral-300 focus:outline-none text-neutral-500"></div>
+          <div><button class="px-6 py-4 bg-[#FD9900] text-white font-semibold text-sm rounded-md hover:bg-[#fd8300] ">Subscribe</button></div>
+        </div>
+    
+     </div>
+    </div>
+
+   <div class=" flex lg:flex-row flex-col justify-between items-center xl:mt-4 lg:mt-2 border-t lg:pt-6 pt-4 gap-2">
+    <img src="Logo - footer.png" alt="" class=" lg:w-[200px] w-[180px]">
+
+    <div class="flex gap-3 text-white">
+      <ul>Terms</ul>
+      <ul>privacy</ul>
+      <ul>Cookies</ul>
+    </div> 
+
+    <div class="flex gap-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+      </svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+      </svg>
+    </div>
+   </div>
+  </div>
+</div>
+   </div>
+
+</body>
+</html>
